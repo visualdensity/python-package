@@ -1,7 +1,12 @@
 Python Modules Example
 ======================
 
-Sample package to showhwo structure your pyhon modules. To use, try the following:
+Sample package to shows the structure typical pyhon package. It answers 
+questions like how do one create subpackages, what is the `__init__.py` 
+is used for and what is supposed to be in the `__init__.py` file. 
+
+This package works, just that it does not do much. To give it a run, try 
+the following:
 
     from mainpackage import *
 
@@ -13,6 +18,7 @@ Sample package to showhwo structure your pyhon modules. To use, try the followin
 
     sub_package2 = Sub2_class()
     sub_package.test_me()
+
 
 Resources
 ---------
